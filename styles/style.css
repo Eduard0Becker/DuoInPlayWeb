@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 25px;
-    width: 15%;
+    width: 27%;
     text-align: center;
     text-decoration: none;
     border-radius: 1px;
@@ -114,8 +114,14 @@ body{
 }
 
 .imagens__best{
-   width: 50%; 
+   width: 20%; 
 }
+
+.imagens__banner{
+    width: 50%;
+    
+}
+
 .imgabout{
     width: 593px; 
     gap: 16px;
@@ -212,6 +218,19 @@ body{
         font-family: 'Montserrat', sans-serif
     }
 
+    .imgabout{
+        width: 293px; 
+        gap: 16px;
+        height: 193px;
+
+    }
+
+    .imagens__banner{
+        width: 100%;
+       
+       
+    }
+
     .rodape {
         padding: 24px;
         color: var(--cor-primaria);
@@ -220,13 +239,6 @@ body{
         font-family: 'Montserrat', sans-serif;
         font-size: 1.0rem;
         font-weight: 400;
-    }
-
-    .imgabout{
-        width: 293px; 
-        gap: 16px;
-        height: 193px;
-
     }
 
 }
