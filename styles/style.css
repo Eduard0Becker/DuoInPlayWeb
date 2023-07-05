@@ -108,9 +108,11 @@ body{
     
 }
 
-.apresentacao__img {
-    width: 50%;
-    
+.apresentacao__video iframe{
+    width: 720px;
+    height: 480px;
+    border-radius: 15px;
+    margin: 10px 150px 20px 60px;
 }
 
 .imagens__best{
@@ -123,10 +125,10 @@ body{
 }
 
 .imgabout{
-    width: 593px; 
+    width: 560px; 
     gap: 16px;
-    height: 393px;
- 
+    height: 589px;
+    border-radius: 5px;
 }
 
 .apresentacao__links__1:hover {
@@ -218,10 +220,18 @@ body{
         font-family: 'Montserrat', sans-serif
     }
 
+    .apresentacao__video iframe{
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+        margin: 1px 5px 40px 5px;
+    }
+
     .imgabout{
-        width: 293px; 
+        width: 270px; 
         gap: 16px;
-        height: 193px;
+        height: 293px;
+        border-radius: 2px;
 
     }
 
