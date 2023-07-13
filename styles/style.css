@@ -109,8 +109,8 @@ body{
 }
 
 .apresentacao__video iframe{
-    width: 720px;
-    height: 480px;
+    width: 680px;
+    height: 430px;
     border-radius: 15px;
     margin: 10px 150px 20px 60px;
 }
@@ -163,7 +163,7 @@ body{
 }
 
 .cabecalho {
-    padding: 2em 2em 4em;
+    padding: 1em 6em 2em 6em;
 }
 
     .cabecalho__menu {
@@ -181,8 +181,8 @@ body{
     .cabecalho__menu__link{
         display: flex;
         justify-content: center;
-        gap: 10px;
-        width: 20;
+        gap: 1px;
+        width: 15;
         height: auto;
         text-align: center;
         text-decoration: none;
